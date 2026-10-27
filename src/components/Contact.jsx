@@ -28,8 +28,8 @@ export default function Contact() {
               </div>
               <div>
                 <p className="text-sm font-bold text-slate-400 uppercase tracking-wider mb-1">Email Me</p>
-                <a href="mailto:your.email@example.com" className="text-xl font-bold text-slate-800 hover:text-blue-600 transition-colors">
-                  your.email@example.com
+                <a href="mailto:tmastewal908@gmail.com" className="text-xl font-bold text-slate-800 hover:text-blue-600 transition-colors">
+                  tmastewal908@gmail.com
                 </a>
               </div>
             </div>
@@ -50,7 +50,7 @@ export default function Contact() {
               </div>
               <div>
                 <p className="text-sm font-bold text-slate-400 uppercase tracking-wider mb-1">Call Me</p>
-                <p className="text-xl font-bold text-slate-800">+251 912 345 678</p>
+                <p className="text-xl font-bold text-slate-800">+251 995188679</p>
               </div>
             </div>
           </div>
