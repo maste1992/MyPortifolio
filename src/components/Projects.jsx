@@ -26,6 +26,13 @@ export default function Projects() {
       github: "https://github.com/maste1992",
       live: "#"
     },
+      {
+      title: "ERPNext property management system",
+      description: "Custom property management modules for enterpri clients, and automated notifications,payment tracking, and dynamic reporting features.",
+      tech: ["Python", "Frappe", "JavaScript", "MariaDB"],
+      github: "https://github.com/maste1992/property_management.git",
+      live: "#"
+    },
     {
       title: "Telegram Automation Bots",
       description: "Specialized Telegram bots for automated system alerts, file conversion, and OTP verification utilizing GeezSMS and Telegram Bot API.",
