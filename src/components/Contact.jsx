@@ -10,7 +10,6 @@ export default function Contact() {
     setStatus("Sending...");
     
     const formData = new FormData(e.target);
-    // እዚህ ጋር ከ Web3Forms በኢሜይል የተላከልህን Access Key አስገባ
     formData.append("access_key", "e07941c7-f036-4bf2-9953-155f5fb7f935");
 
     try {
@@ -23,7 +22,7 @@ export default function Contact() {
 
       if (data.success) {
         setStatus("Message Sent Successfully! 🎉");
-        e.target.reset(); // ፎርሙን ባዶ ያደርገዋል
+        e.target.reset(); 
       } else {
         setStatus("Something went wrong. Please try again.");
       }
@@ -31,7 +30,6 @@ export default function Contact() {
       setStatus("Error sending message.");
     }
     
-    // ከ 3 ሴኮንድ በኋላ መልዕክቱን ያጠፋዋል
     setTimeout(() => setStatus(""), 3000);
   };
 
